@@ -28,6 +28,23 @@ The approach is to create a looping code which randomly creates 35 people with a
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting!-->
 
+```{r}
+ansarray<-numeric()
+for (j in 1:100){
+brownProfit = 0
+bdays <- (1:365)
+for (i in 1:1137){
+students <- sample(bdays,size = 35, replace = TRUE)
+xx <- duplicated(students)
+winornot <- sum(xx)
+if (winornot >= 1) brownProfit = brownProfit+1 else brownProfit = brownProfit -2
+}
+ansarray[j]=brownProfit
+}
+hist(ansarray)
+```
+
+in this example, we're given the result of 447 meaning that brownlows profit was $447 dollars, but running the chunk again might give us a different result.
 
 # Confidence interval of Brownlows earning
 

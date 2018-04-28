@@ -50,6 +50,14 @@ in this example, we're given the result of 447 meaning that brownlows profit was
 
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows-->
 
+```{r}
+meanans <- mean(ansarray)
+sd <- sd(ansarray)
+confidence <- c(meanans - 2*sd, meanans + 2*sd)
+View(confidence)
+```
+
+we are give a range of 441 and 579 meaning that 95% of the time the profit will be within those parameters.
 
 # Discussion and Conclusion
 

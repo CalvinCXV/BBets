@@ -63,3 +63,6 @@ we are give a range of 441 and 579 meaning that 95% of the time the profit will 
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+for brownlow to keep his prifits closest to 0, he would have to pay out $4.50 to his students $1.
+
+for his profit to be close to to 0 with his $2 to $1 ratio, he would need 29 students in his class.
